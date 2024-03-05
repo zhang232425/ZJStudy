@@ -1,0 +1,6 @@
+framework module ZJStudy {
+  umbrella header "ZJStudy-umbrella.h"
+
+  export *
+  module * { export * }
+}

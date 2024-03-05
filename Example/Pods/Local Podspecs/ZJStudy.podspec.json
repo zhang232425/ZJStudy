@@ -1,0 +1,53 @@
+{
+  "name": "ZJStudy",
+  "version": "0.1.0",
+  "summary": "A short description of ZJStudy.",
+  "homepage": "https://github.com/zhang232425/ZJStudy.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yonathan": "yonathan@asetku.com"
+  },
+  "source": {
+    "git": "https://github.com/zhang232425/ZJStudy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJStudy/Classes/**/*",
+  "resource_bundles": {
+    "ZJStudy": [
+      "ZJStudy/Classes/**/*"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Then": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "Action": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxDataSources": [
+
+    ],
+    "RxSwiftExt": [
+
+    ],
+    "ZJRouter": [
+
+    ]
+  }
+}

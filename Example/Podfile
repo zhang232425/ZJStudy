@@ -1,13 +1,14 @@
 use_frameworks!
-
 platform :ios, '10.0'
+
+source 'git@github.com:zhang232425/ZJSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+install! 'cocoapods', :deterministic_uuids => false
 
 target 'ZJStudy_Example' do
   pod 'ZJStudy', :path => '../'
 
-  target 'ZJStudy_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'ZJRoutableTargets',   :git => 'git@github.com:zhang232425/ZJRoutableTargets.git', :branch => 'main'
+  
 end
+
