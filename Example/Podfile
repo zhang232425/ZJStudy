@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZJStudy_Example' do
+  pod 'ZJStudy', :path => '../'
+
+  target 'ZJStudy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
