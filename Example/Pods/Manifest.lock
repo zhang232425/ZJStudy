@@ -2,6 +2,7 @@ PODS:
   - Action (5.0.0):
     - RxCocoa (~> 6.0)
     - RxSwift (~> 6.0)
+  - CryptoSwift (1.5.1)
   - Differentiator (5.0.0)
   - RxCocoa (6.6.0):
     - RxRelay (= 6.6.0)
@@ -21,8 +22,15 @@ PODS:
   - RxSwiftExt/RxCocoa (6.0.1):
     - RxCocoa (~> 6.0)
     - RxSwiftExt/Core
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
   - SnapKit (5.6.0)
   - Then (3.0.0)
+  - ZJExtension (0.1.0):
+    - CryptoSwift
+    - SDWebImage
+    - SnapKit
   - ZJRoutableTargets (0.1.0):
     - ZJRouter
   - ZJRouter (0.1.0)
@@ -34,9 +42,12 @@ PODS:
     - RxSwiftExt
     - SnapKit
     - Then
+    - ZJExtension
+    - ZJRoutableTargets
     - ZJRouter
 
 DEPENDENCIES:
+  - "ZJExtension (from `git@github.com:zhang232425/ZJExtension.git`, branch `main`)"
   - "ZJRoutableTargets (from `git@github.com:zhang232425/ZJRoutableTargets.git`, branch `main`)"
   - ZJStudy (from `../`)
 
@@ -45,16 +56,21 @@ SPEC REPOS:
     - ZJRouter
   https://github.com/CocoaPods/Specs.git:
     - Action
+    - CryptoSwift
     - Differentiator
     - RxCocoa
     - RxDataSources
     - RxRelay
     - RxSwift
     - RxSwiftExt
+    - SDWebImage
     - SnapKit
     - Then
 
 EXTERNAL SOURCES:
+  ZJExtension:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJExtension.git"
   ZJRoutableTargets:
     :branch: main
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
@@ -62,24 +78,30 @@ EXTERNAL SOURCES:
     :path: "../"
 
 CHECKOUT OPTIONS:
+  ZJExtension:
+    :commit: 101fb483e31657f55915ae3dd874badf099a3670
+    :git: "git@github.com:zhang232425/ZJExtension.git"
   ZJRoutableTargets:
     :commit: d9602b9b0cc38f6b0e977de7e96bd6c03bad2f87
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
 
 SPEC CHECKSUMS:
   Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   RxSwiftExt: d61c4b9b06e0a448041b1c659e0f1b5c5a035afc
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  ZJExtension: 227faf8dfbd3562eaa7cd9120f41d44bf2b59258
   ZJRoutableTargets: 617c378cddd85417abfe361d7234aabf58761cd5
   ZJRouter: 2ae914db45b7844d11cb186d4de4dff75a5085b9
-  ZJStudy: 7ed70da007ce642e0c09af2a3487343e626f55c1
+  ZJStudy: b0d4c4afad44a52e533368f310580b52532a8cd3
 
-PODFILE CHECKSUM: 491863b8e22df74cd9de52e59293c4a2de558baa
+PODFILE CHECKSUM: 65da1f2db064d1ac26370049e719aab2745bc93e
 
 COCOAPODS: 1.11.2

@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwiftExt'
   
   s.dependency 'ZJRouter'
+  s.dependency 'ZJRoutableTargets'
+  s.dependency 'ZJExtension'
   
 end
 

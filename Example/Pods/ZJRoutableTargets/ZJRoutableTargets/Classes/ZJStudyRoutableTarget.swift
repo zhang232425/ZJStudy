@@ -7,7 +7,9 @@
 
 import ZJRouter
 
-public struct ZJStudyRoutePath {
+public struct ZJStudyRoutePath {}
+
+public extension ZJStudyRoutePath {
     
     static let grammar = ZJRoutePath(value: "as://study.grammar")
     static let function = ZJRoutePath(value: "as://study.function")
@@ -15,7 +17,7 @@ public struct ZJStudyRoutePath {
     static let algorithm = ZJRoutePath(value: "as://study.algorithm")
     
 }
-
+    
 public enum ZJStudyRoutableTarget: ZJRoutableTarget {
     
     case grammar
