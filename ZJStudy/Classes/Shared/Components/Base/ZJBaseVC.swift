@@ -6,8 +6,16 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import RxSwiftExt
+import Then
+import SnapKit
+import ZJExtension
 
 class ZJBaseVC: UIViewController {
+    
+    let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()

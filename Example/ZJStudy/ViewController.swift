@@ -19,22 +19,17 @@ class ViewController: UITabBarController {
         
         if let vc = ZJStudyRoutableTarget.grammar.viewController {
             vc.tabBarItem = .init(title: "Grammar", image: UIImage(color: .blue, size: .init(width: 10, height: 10)), tag: 0)
-            controllers.append(UINavigationController(rootViewController: vc))
+            controllers.append(vc)
         }
         
         if let vc = ZJStudyRoutableTarget.scheme.viewController {
             vc.tabBarItem = .init(title: "Scheme", image: UIImage(color: .blue, size: .init(width: 10, height: 10)), tag: 0)
-            controllers.append(UINavigationController(rootViewController: vc))
-        }
-        
-        if let vc = ZJStudyRoutableTarget.function.viewController {
-            vc.tabBarItem = .init(title: "Function", image: UIImage(color: .blue, size: .init(width: 10, height: 10)), tag: 0)
-            controllers.append(UINavigationController(rootViewController: vc))
+            controllers.append(vc)
         }
         
         if let vc = ZJStudyRoutableTarget.algorithm.viewController {
             vc.tabBarItem = .init(title: "Algorithm", image: UIImage(color: .blue, size: .init(width: 10, height: 10)), tag: 0)
-            controllers.append(UINavigationController(rootViewController: vc))
+            controllers.append(vc)
         }
         
         viewControllers = controllers

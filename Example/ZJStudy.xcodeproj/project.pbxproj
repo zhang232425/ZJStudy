@@ -29,7 +29,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		72288E2DD3E979E2CC3BF1DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		82B867FC2D07CE5A6C254009 /* Pods_ZJStudy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJStudy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9502D1E36AE946CC8B41390E /* ZJStudy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJStudy.podspec; path = ../ZJStudy.podspec; sourceTree = "<group>"; };
+		9502D1E36AE946CC8B41390E /* ZJStudy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJStudy.podspec; path = ../ZJStudy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9670E65C9F7BA657FBF0A828 /* Pods_ZJStudy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJStudy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0845F048C067F4742261D2D /* Pods-ZJStudy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJStudy_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZJStudy_Tests/Pods-ZJStudy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +146,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJ;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;

@@ -15,19 +15,15 @@ public struct ZJStudyModule: ZJModule {
     public func initialize() {
         
         ZJStudyRoutableTarget.register(path: ZJStudyRoutePath.grammar) { _ in
-            return ZJGrammarVC()
-        }
-        
-        ZJStudyRoutableTarget.register(path: ZJStudyRoutePath.function) { _ in
-            return ZJFunctionVC()
+            return ZJBaseNavigationVC(rootViewController: ZJGrammarVC())
         }
         
         ZJStudyRoutableTarget.register(path: ZJStudyRoutePath.scheme) { _ in
-            return ZJSchemeVC()
+            return ZJBaseNavigationVC(rootViewController: ZJSchemeVC())
         }
         
         ZJStudyRoutableTarget.register(path: ZJStudyRoutePath.algorithm) { _ in
-            return ZJAlgorithmVC()
+            return ZJBaseNavigationVC(rootViewController: ZJAlgorithmVC())
         }
         
     }
