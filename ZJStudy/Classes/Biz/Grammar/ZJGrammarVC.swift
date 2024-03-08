@@ -12,7 +12,7 @@ import RxDataSources
 
 class ZJGrammarVC: ZJBaseVC {
     
-    private let datas = BehaviorRelay(value: [SectionModel(model: "", items: ["Closures（闭包）"])])
+    private let datas = BehaviorRelay(value: [SectionModel(model: "", items: ["BasePart（基础部分）", "Function（函数）", "Closures（闭包）"])])
     
     private var dataSource: RxTableViewSectionedReloadDataSource<SectionModel<String, String>>!
     
@@ -66,9 +66,17 @@ private extension ZJGrammarVC {
     func rowClick(_ text: String) {
         
         switch text {
+        case "BasePart（基础部分）":
+            let vc = ZJBasePartVC()
+            vc.navigationItem.title = text
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "Function（函数）":
+            let vc = ZJFunctionVC()
+            vc.navigationItem.title = text
+            self.navigationController?.pushViewController(vc, animated: true)
         case "Closures（闭包）":
             let vc = ZJClosuresVC()
-            vc.navigationItem.title = "Closurces（闭包）"
+            vc.navigationItem.title = text
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             break

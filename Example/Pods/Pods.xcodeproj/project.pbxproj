@@ -745,6 +745,7 @@
 		46EB2E00007380 /* SDWebImage-SDWebImage in Resources */ = {isa = PBXBuildFile; fileRef = CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */; };
 		46EB2E000073B0 /* ZJExtension-ZJExtension in Resources */ = {isa = PBXBuildFile; fileRef = 50BE319FD3D9034322E01224F31E651F /* ZJExtension-ZJExtension */; };
 		D6973F3F2B995F3A009211D8 /* ZJStudy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6973F3E2B995F3A009211D8 /* ZJStudy.xcassets */; };
+		D6973F412B99C17B009211D8 /* ZJBasePartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6973F402B99C17B009211D8 /* ZJBasePartVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1881,6 +1882,7 @@
 		CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SDWebImage-SDWebImage"; path = SDWebImage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51C3D0C53D23B97B032E3BDD4F82C82 /* Differentiator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differentiator; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6973F3E2B995F3A009211D8 /* ZJStudy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ZJStudy.xcassets; path = ZJStudy/Assets/ZJStudy.xcassets; sourceTree = "<group>"; };
+		D6973F402B99C17B009211D8 /* ZJBasePartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBasePartVC.swift; sourceTree = "<group>"; };
 		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxRelay; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -2979,6 +2981,7 @@
 			children = (
 				46EB2E00002BB0 /* ZJClosuresVC.swift */,
 				46EB2E00002BC0 /* ZJFunctionVC.swift */,
+				D6973F402B99C17B009211D8 /* ZJBasePartVC.swift */,
 				46EB2E00002BD0 /* ZJGrammarVC.swift */,
 			);
 			path = Grammar;
@@ -4889,6 +4892,7 @@
 				46EB2E00006DE0 /* ZJBaseNavigationVC.swift in Sources */,
 				46EB2E00006DF0 /* ZJBaseVC.swift in Sources */,
 				46EB2E00006D90 /* ZJClosuresVC.swift in Sources */,
+				D6973F412B99C17B009211D8 /* ZJBasePartVC.swift in Sources */,
 				46EB2E00006DA0 /* ZJFunctionVC.swift in Sources */,
 				46EB2E00006DB0 /* ZJGrammarVC.swift in Sources */,
 				46EB2E00006DC0 /* ZJSchemeVC.swift in Sources */,
