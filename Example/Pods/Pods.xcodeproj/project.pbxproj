@@ -744,6 +744,8 @@
 		46EB2E00007030 /* Pods-ZJStudy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00007020 /* Pods-ZJStudy_Example-dummy.m */; };
 		46EB2E00007380 /* SDWebImage-SDWebImage in Resources */ = {isa = PBXBuildFile; fileRef = CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */; };
 		46EB2E000073B0 /* ZJExtension-ZJExtension in Resources */ = {isa = PBXBuildFile; fileRef = 50BE319FD3D9034322E01224F31E651F /* ZJExtension-ZJExtension */; };
+		D667C6372BA937AE00B31C23 /* ZJSortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667C6362BA937AE00B31C23 /* ZJSortVC.swift */; };
+		D667C6392BA9960B00B31C23 /* ZJHighLevelFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667C6382BA9960B00B31C23 /* ZJHighLevelFunctionVC.swift */; };
 		D6973F3F2B995F3A009211D8 /* ZJStudy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6973F3E2B995F3A009211D8 /* ZJStudy.xcassets */; };
 		D6973F412B99C17B009211D8 /* ZJBasePartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6973F402B99C17B009211D8 /* ZJBasePartVC.swift */; };
 /* End PBXBuildFile section */
@@ -1881,6 +1883,8 @@
 		BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxCocoa; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1281E58AA1045D4B7F33FC56691C42 /* SDWebImage-SDWebImage */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SDWebImage-SDWebImage"; path = SDWebImage.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51C3D0C53D23B97B032E3BDD4F82C82 /* Differentiator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Differentiator; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D667C6362BA937AE00B31C23 /* ZJSortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJSortVC.swift; sourceTree = "<group>"; };
+		D667C6382BA9960B00B31C23 /* ZJHighLevelFunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHighLevelFunctionVC.swift; sourceTree = "<group>"; };
 		D6973F3E2B995F3A009211D8 /* ZJStudy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ZJStudy.xcassets; path = ZJStudy/Assets/ZJStudy.xcassets; sourceTree = "<group>"; };
 		D6973F402B99C17B009211D8 /* ZJBasePartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBasePartVC.swift; sourceTree = "<group>"; };
 		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2972,6 +2976,7 @@
 			isa = PBXGroup;
 			children = (
 				46EB2E00002B90 /* ZJAlgorithmVC.swift */,
+				D667C6362BA937AE00B31C23 /* ZJSortVC.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -2991,6 +2996,7 @@
 			isa = PBXGroup;
 			children = (
 				46EB2E00002BF0 /* ZJSchemeVC.swift */,
+				D667C6382BA9960B00B31C23 /* ZJHighLevelFunctionVC.swift */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -4894,6 +4900,8 @@
 				46EB2E00006D90 /* ZJClosuresVC.swift in Sources */,
 				D6973F412B99C17B009211D8 /* ZJBasePartVC.swift in Sources */,
 				46EB2E00006DA0 /* ZJFunctionVC.swift in Sources */,
+				D667C6372BA937AE00B31C23 /* ZJSortVC.swift in Sources */,
+				D667C6392BA9960B00B31C23 /* ZJHighLevelFunctionVC.swift in Sources */,
 				46EB2E00006DB0 /* ZJGrammarVC.swift in Sources */,
 				46EB2E00006DC0 /* ZJSchemeVC.swift in Sources */,
 				46EB2E00006EA0 /* ZJStudy-dummy.m in Sources */,
